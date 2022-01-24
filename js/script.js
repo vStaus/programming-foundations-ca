@@ -39,7 +39,7 @@ var games = [
     },
     ];
 for(var i = 0; i < games.length; i++) {
-    if(games[i].rating < 3.6) {
+    if(games[i].rating < 3.5) {
         document.write(games[i].title + ':' + '&nbsp' + games[i].rating)
     }
     console.log(games.length);

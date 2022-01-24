@@ -46,19 +46,19 @@ for(var i = 0; i < games.length; i++) {
 }
 
 // oppgave 4
-function whatIDontLike (heights){
-    console.log("I dont like " + heights)
+function whatIDontLike (fish){
+    console.log("I dont like " + fish)
 }
 
-whatIDontLike ("heights")
+whatIDontLike ("fish")
 
 // oppgave 5
-function twoNumbers(number69, number420) {
-    var sum = number69 - number420;
+function twoNumbers(number12, number7) {
+    var sum = number12 - number7;
     console.log(sum);
     }
 
-twoNumbers (69,420);
+twoNumbers (12,7);
 document.getElementById("subtraction").innerHTML = twoNumbers;
 
 // oppgave 6
@@ -78,7 +78,7 @@ button.onclick = changeStyle;
 
 // oppgave 7
 const out = document.querySelector ("ul#toysList");
-let toysList = [
+var toysList = [
     {
         name: "Lego",
         price: 15.6,
@@ -104,7 +104,7 @@ function list (){
 
 function listArray(array, element) {
     element.innerHTML = "";
-    for (let toysList of array) {
+    for (var toysList of array) {
         element.innerHTML +="<li>" + toysList + "</li>"
     }
 }

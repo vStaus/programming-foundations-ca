@@ -10,7 +10,8 @@ if (outOfStock === true) {
 //oppgave 2
 
 for(var i = 15; i <= 25; i++) {
-    console.log(i);
+    console.log(17);
+    console.log(20);
 }
 
 // oppgave 3

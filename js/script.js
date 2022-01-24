@@ -45,14 +45,14 @@ for(var i = 0; i < games.length; i++) {
     console.log(games.length);
 }
 
-// oppgave 4
+//oppgave 4
 function whatIDontLike (fish){
     console.log("I dont like " + fish)
 }
 
 whatIDontLike ("fish")
 
-// oppgave 5
+//oppgave 5
 function twoNumbers(number12, number7) {
     var sum = number12 - number7;
     console.log(sum);
@@ -61,7 +61,7 @@ function twoNumbers(number12, number7) {
 twoNumbers (12,7);
 document.getElementById("subtraction").innerHTML = twoNumbers;
 
-// oppgave 6
+//oppgave 6
 var heading = document.querySelector("h1")
 var button = document.querySelector("button")
 var h1 = document.querySelector("h1")
@@ -76,7 +76,7 @@ function changeStyle () {
 }
 button.onclick = changeStyle;
 
-// oppgave 7
+//oppgave 7
 const out = document.querySelector ("ul#toysList");
 var toysList = [
     {
